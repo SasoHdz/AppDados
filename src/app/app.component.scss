@@ -50,3 +50,23 @@ img {
   margin: 15px;
 }
 
+.negative {
+    animation: saltar 1.2s infinite;
+  }
+
+@keyframes saltar {
+  0%{
+    top: 0px;
+    transform: scale(0.9);
+
+  }
+  50%{
+    top: 10px;
+    transform: scale(1.2);
+  }
+  100%{
+    top:0px;
+    transform: scale(1);
+
+  }
+}

@@ -8,11 +8,11 @@
     <img class="bg-dark bg-gradient" [src]="dadoLefth" alt="">
     <img class="bg-dark bg-gradient" [src]="dadoRigth" alt="">
   </div>
-  <div *ngIf="sameFaces; else success" class="alert alert-primary mt-3" role="alert">
+  <div *ngIf="sameFaces; else success" class="alert alert-primary mt-3 negative"  role="alert">
     Lo has hecho genial !!!!!
   </div>
   <ng-template #success >
-    <div class="alert alert-danger mt-3" role="alert">
+    <div class="alert alert-danger mt-3 negative" role="alert">
       Sigue intentando!!!!
     </div>
   </ng-template>
